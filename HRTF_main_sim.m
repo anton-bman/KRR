@@ -10,8 +10,8 @@ randomHRTF = false;
 valCoords = [earpos_left earpos_right];
 
 %micCoords = [micCoords -micCoords]
-B = [0; 1; 0];
-A = [0.05; 0; 0];
+B = [0; 0.05; 0];
+A = earpos_left;
 
 %we find the rotation vector that moves our origin-centered positions of
 %the ears to [0 dist/2 0], where dist is the distance between the ears, and
